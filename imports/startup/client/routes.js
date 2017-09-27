@@ -15,6 +15,14 @@ FlowRouter.route('/category/:category', {
   }
 });
 
+/* test */
+FlowRouter.route('/testpage', {
+  name: 'testpage', 
+  action(){
+    BlazeLayout.render("testPage", {content: "home", header: "Header" });
+  }
+});
+
 FlowRouter.route('/place/:placeId', {
   name: 'place.show',
   action() {

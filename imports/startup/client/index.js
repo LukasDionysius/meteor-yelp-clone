@@ -12,3 +12,4 @@ import '../../ui/components/Rating/Rating.js';
 // templates
 import '../../ui/layouts/main.html';
 import '../../ui/pages/home.js';
+import '../../ui/layouts/testpage.html';
