@@ -11,7 +11,7 @@ import '../Map.js';
 describe('Map component', function () {
   it('renders correctly with simple data', function () {
     const center = { lat: -37.8136, lng: 144.9631 };
-    const zoom = 8;
+    const zoom = 100;
     const data = { center, zoom };
 
     withRenderedTemplate('Map', data, el => {

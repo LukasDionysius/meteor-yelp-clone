@@ -12,11 +12,11 @@ Template.home.onCreated(function() {
 
 Template.home.helpers({
   mapCenter() {
-    return { lat: -37.8136, lng: 144.9631 };
+    return { lat: 40.0371, lng: -75.3436 };
   },
 
   defaultZoom() {
-    return 15;
+    return 14;
   },
 
   query() {
